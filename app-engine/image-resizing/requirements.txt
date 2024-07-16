@@ -5,3 +5,4 @@ google-cloud-storage==2.5.0
 gunicorn==20.1.0
 # Uncomment if you need to debug
 # google-python-cloud-debugger
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability

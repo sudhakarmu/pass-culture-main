@@ -2,6 +2,10 @@ Flask==2.2.2
 flask-cors==3.0.10
 appengine-python-standard>=0.2.2
 google-cloud-storage==2.5.0
-gunicorn==20.1.0
+gunicorn==22.0.0
 # Uncomment if you need to debug
 # google-python-cloud-debugger
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability

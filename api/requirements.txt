@@ -78,9 +78,10 @@ types-requests
 types-urllib3
 # Pin weasyprint to keep new versions from changing how our PDF files look.
 weasyprint==56.1
-Werkzeug==2.0.3
+Werkzeug==3.1.4
 WTForms==3.0.1
 WTForms-SQLAlchemy==0.3
 XlsxWriter
 Flask-WTF==1.0.1
 zeep==4.1.0
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
